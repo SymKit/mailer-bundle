@@ -1,0 +1,52 @@
+{
+    "name": "symkit/mailer-bundle",
+    "description": "Symfony bundle for managing and sending MJML templates with event-driven logging and asynchronous support.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "doctrine/doctrine-bundle": "^2.11",
+        "doctrine/orm": "^3.6",
+        "notfloran/mjml-bundle": "^3.9",
+        "symfony/framework-bundle": "^7.0 || ^8.0",
+        "symfony/form": "^7.0 || ^8.0",
+        "symfony/mailer": "^7.0 || ^8.0",
+        "symfony/validator": "^7.0 || ^8.0",
+        "symfony/uid": "^7.0 || ^8.0",
+        "symkit/crud-bundle": "~0.0.1",
+        "symkit/form-bundle": "~0.0.1"
+    },
+    "require-dev": {
+        "deptrac/deptrac": "^2.0",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "infection/infection": "^0.29",
+        "nyholm/symfony-bundle-test": "^3.0",
+        "phpro/grumphp": "^2.0",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.0",
+        "symkit/bundle-ai-kit": "~0.0.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "infection/extension-installer": true,
+            "phpro/grumphp": true,
+            "symkit/bundle-ai-kit": true
+        }
+    },
+    "extra": {
+        "bundle-ai-kit": {
+            "editors": ["cursor"],
+            "skills": ["symfony-bundle-core", "symfony-bundle-ux", "symfony-bundle-doctrine", "symfony-bundle-flex", "symfony-bundle-quality"]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Symkit\\MailerBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Symkit\\MailerBundle\\Tests\\": "tests/"
+        }
+    }
+}

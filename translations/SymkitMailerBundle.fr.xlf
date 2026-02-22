@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="SymkitMailerBundle" date="2025-02-22T00:00:00Z">
+        <header/>
+        <body>
+            <trans-unit id="admin.layout.page_title" resname="admin.layout.page_title">
+                <source>admin.layout.page_title</source>
+                <target>Mises en page email</target>
+            </trans-unit>
+            <trans-unit id="admin.layout.page_description" resname="admin.layout.page_description">
+                <source>admin.layout.page_description</source>
+                <target>Gérer les mises en page email.</target>
+            </trans-unit>
+            <trans-unit id="admin.layout.create_title" resname="admin.layout.create_title">
+                <source>admin.layout.create_title</source>
+                <target>Créer une mise en page</target>
+            </trans-unit>
+            <trans-unit id="admin.layout.create_description" resname="admin.layout.create_description">
+                <source>admin.layout.create_description</source>
+                <target>Créer une nouvelle mise en page email.</target>
+            </trans-unit>
+            <trans-unit id="admin.layout.edit_description" resname="admin.layout.edit_description">
+                <source>admin.layout.edit_description</source>
+                <target>Modifier la mise en page email.</target>
+            </trans-unit>
+            <trans-unit id="admin.layout.list.name" resname="admin.layout.list.name">
+                <source>admin.layout.list.name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="admin.layout.list.emails" resname="admin.layout.list.emails">
+                <source>admin.layout.list.emails</source>
+                <target>Emails</target>
+            </trans-unit>
+            <trans-unit id="admin.email.page_title" resname="admin.email.page_title">
+                <source>admin.email.page_title</source>
+                <target>Modèles d'email</target>
+            </trans-unit>
+            <trans-unit id="admin.email.page_description" resname="admin.email.page_description">
+                <source>admin.email.page_description</source>
+                <target>Gérer les modèles d'email.</target>
+            </trans-unit>
+            <trans-unit id="admin.email.create_title" resname="admin.email.create_title">
+                <source>admin.email.create_title</source>
+                <target>Créer un modèle d'email</target>
+            </trans-unit>
+            <trans-unit id="admin.email.create_description" resname="admin.email.create_description">
+                <source>admin.email.create_description</source>
+                <target>Créer un nouveau modèle d'email.</target>
+            </trans-unit>
+            <trans-unit id="admin.email.edit_description" resname="admin.email.edit_description">
+                <source>admin.email.edit_description</source>
+                <target>Modifier le modèle d'email.</target>
+            </trans-unit>
+            <trans-unit id="admin.email.list.subject" resname="admin.email.list.subject">
+                <source>admin.email.list.subject</source>
+                <target>Objet</target>
+            </trans-unit>
+            <trans-unit id="admin.email.list.slug" resname="admin.email.list.slug">
+                <source>admin.email.list.slug</source>
+                <target>Slug</target>
+            </trans-unit>
+            <trans-unit id="admin.email.list.sender" resname="admin.email.list.sender">
+                <source>admin.email.list.sender</source>
+                <target>Expéditeur</target>
+            </trans-unit>
+            <trans-unit id="admin.email.list.name" resname="admin.email.list.name">
+                <source>admin.email.list.name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="admin.email.list.layout" resname="admin.email.list.layout">
+                <source>admin.email.list.layout</source>
+                <target>Mise en page</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.page_title" resname="admin.emaillog.page_title">
+                <source>admin.emaillog.page_title</source>
+                <target>Journaux d'emails</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.page_description" resname="admin.emaillog.page_description">
+                <source>admin.emaillog.page_description</source>
+                <target>Voir les journaux d'emails envoyés.</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.show_title" resname="admin.emaillog.show_title">
+                <source>admin.emaillog.show_title</source>
+                <target>Détail du journal email</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.show_description" resname="admin.emaillog.show_description">
+                <source>admin.emaillog.show_description</source>
+                <target>Voir les détails de l'email envoyé.</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.list.recipient" resname="admin.emaillog.list.recipient">
+                <source>admin.emaillog.list.recipient</source>
+                <target>Destinataire</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.list.subject" resname="admin.emaillog.list.subject">
+                <source>admin.emaillog.list.subject</source>
+                <target>Objet</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.list.sent_at" resname="admin.emaillog.list.sent_at">
+                <source>admin.emaillog.list.sent_at</source>
+                <target>Envoyé le</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.list.status" resname="admin.emaillog.list.status">
+                <source>admin.emaillog.list.status</source>
+                <target>Statut</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.section.details" resname="admin.emaillog.section.details">
+                <source>admin.emaillog.section.details</source>
+                <target>Détails du journal</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.section.details_description" resname="admin.emaillog.section.details_description">
+                <source>admin.emaillog.section.details_description</source>
+                <target>Informations détaillées sur l'email envoyé.</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.section.error" resname="admin.emaillog.section.error">
+                <source>admin.emaillog.section.error</source>
+                <target>Erreur</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.section.content" resname="admin.emaillog.section.content">
+                <source>admin.emaillog.section.content</source>
+                <target>Contenu de l'email</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.section.content_description" resname="admin.emaillog.section.content_description">
+                <source>admin.emaillog.section.content_description</source>
+                <target>Le contenu MJML/HTML brut envoyé au destinataire.</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.section.source_code" resname="admin.emaillog.section.source_code">
+                <source>admin.emaillog.section.source_code</source>
+                <target>Code source</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.section.preview" resname="admin.emaillog.section.preview">
+                <source>admin.emaillog.section.preview</source>
+                <target>Aperçu visuel</target>
+            </trans-unit>
+            <trans-unit id="admin.emaillog.section.preview_description" resname="admin.emaillog.section.preview_description">
+                <source>admin.emaillog.section.preview_description</source>
+                <target>Visualisation du rendu final de l'email envoyé.</target>
+            </trans-unit>
+            <trans-unit id="preview.no_content" resname="preview.no_content">
+                <source>preview.no_content</source>
+                <target>Aucun contenu disponible pour l'aperçu.</target>
+            </trans-unit>
+            <trans-unit id="form.section.general" resname="form.section.general">
+                <source>form.section.general</source>
+                <target>Général</target>
+            </trans-unit>
+            <trans-unit id="form.section.general_layout_description" resname="form.section.general_layout_description">
+                <source>form.section.general_layout_description</source>
+                <target>Informations de base sur la mise en page.</target>
+            </trans-unit>
+            <trans-unit id="form.section.design_content" resname="form.section.design_content">
+                <source>form.section.design_content</source>
+                <target>Design et contenu</target>
+            </trans-unit>
+            <trans-unit id="form.section.design_description" resname="form.section.design_description">
+                <source>form.section.design_description</source>
+                <target>Définir la structure MJML complète.</target>
+            </trans-unit>
+            <trans-unit id="form.layout.name" resname="form.layout.name">
+                <source>form.layout.name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="form.layout.name_placeholder" resname="form.layout.name_placeholder">
+                <source>form.layout.name_placeholder</source>
+                <target>ex. Mise en page par défaut</target>
+            </trans-unit>
+            <trans-unit id="form.layout.name_help" resname="form.layout.name_help">
+                <source>form.layout.name_help</source>
+                <target>Le nom interne de cette mise en page.</target>
+            </trans-unit>
+            <trans-unit id="form.layout.mjml_content" resname="form.layout.mjml_content">
+                <source>form.layout.mjml_content</source>
+                <target>Contenu MJML</target>
+            </trans-unit>
+            <trans-unit id="form.layout.mjml_help" resname="form.layout.mjml_help">
+                <source>form.layout.mjml_help</source>
+                <target>Le modèle MJML complet. Vous pouvez utiliser des éditeurs externes comme Easy-Email Pro. Doit contenir {% block content %}{% endblock %}.</target>
+            </trans-unit>
+            <trans-unit id="form.email.general_description" resname="form.email.general_description">
+                <source>form.email.general_description</source>
+                <target>Décrire l'objet et le but de cet email.</target>
+            </trans-unit>
+            <trans-unit id="form.email.subject" resname="form.email.subject">
+                <source>form.email.subject</source>
+                <target>Objet</target>
+            </trans-unit>
+            <trans-unit id="form.email.subject_placeholder" resname="form.email.subject_placeholder">
+                <source>form.email.subject_placeholder</source>
+                <target>ex. Bienvenue sur notre service</target>
+            </trans-unit>
+            <trans-unit id="form.email.subject_help" resname="form.email.subject_help">
+                <source>form.email.subject_help</source>
+                <target>La ligne d'objet de l'email.</target>
+            </trans-unit>
+            <trans-unit id="form.email.slug" resname="form.email.slug">
+                <source>form.email.slug</source>
+                <target>Slug</target>
+            </trans-unit>
+            <trans-unit id="form.email.slug_help" resname="form.email.slug_help">
+                <source>form.email.slug_help</source>
+                <target>Identifiant unique utilisé pour référencer ce modèle dans le code.</target>
+            </trans-unit>
+            <trans-unit id="form.email.layout" resname="form.email.layout">
+                <source>form.email.layout</source>
+                <target>Mise en page</target>
+            </trans-unit>
+            <trans-unit id="form.email.layout_placeholder" resname="form.email.layout_placeholder">
+                <source>form.email.layout_placeholder</source>
+                <target>Sélectionner une mise en page (optionnel)</target>
+            </trans-unit>
+            <trans-unit id="form.email.layout_help" resname="form.email.layout_help">
+                <source>form.email.layout_help</source>
+                <target>Envelopper ce contenu avec un en-tête et pied de page prédéfinis.</target>
+            </trans-unit>
+            <trans-unit id="form.email.sender_section" resname="form.email.sender_section">
+                <source>form.email.sender_section</source>
+                <target>Expéditeur</target>
+            </trans-unit>
+            <trans-unit id="form.email.sender_description" resname="form.email.sender_description">
+                <source>form.email.sender_description</source>
+                <target>Configurer les informations de l'expéditeur pour cet email.</target>
+            </trans-unit>
+            <trans-unit id="form.email.sender_email" resname="form.email.sender_email">
+                <source>form.email.sender_email</source>
+                <target>Email expéditeur</target>
+            </trans-unit>
+            <trans-unit id="form.email.sender_email_placeholder" resname="form.email.sender_email_placeholder">
+                <source>form.email.sender_email_placeholder</source>
+                <target>ex. hello@example.com</target>
+            </trans-unit>
+            <trans-unit id="form.email.sender_email_help" resname="form.email.sender_email_help">
+                <source>form.email.sender_email_help</source>
+                <target>L'adresse email qui apparaîtra dans le champ « De ».</target>
+            </trans-unit>
+            <trans-unit id="form.email.sender_name" resname="form.email.sender_name">
+                <source>form.email.sender_name</source>
+                <target>Nom expéditeur</target>
+            </trans-unit>
+            <trans-unit id="form.email.sender_name_placeholder" resname="form.email.sender_name_placeholder">
+                <source>form.email.sender_name_placeholder</source>
+                <target>ex. Support du site</target>
+            </trans-unit>
+            <trans-unit id="form.email.sender_name_help" resname="form.email.sender_name_help">
+                <source>form.email.sender_name_help</source>
+                <target>Le nom qui apparaîtra dans le champ « De ».</target>
+            </trans-unit>
+            <trans-unit id="form.email.content_section" resname="form.email.content_section">
+                <source>form.email.content_section</source>
+                <target>Contenu</target>
+            </trans-unit>
+            <trans-unit id="form.email.content_description" resname="form.email.content_description">
+                <source>form.email.content_description</source>
+                <target>Le contenu du corps de l'email.</target>
+            </trans-unit>
+            <trans-unit id="form.email.mjml_content" resname="form.email.mjml_content">
+                <source>form.email.mjml_content</source>
+                <target>Contenu MJML</target>
+            </trans-unit>
+            <trans-unit id="form.email.mjml_help" resname="form.email.mjml_help">
+                <source>form.email.mjml_help</source>
+                <target>Le modèle MJML complet. Doit contenir {% block content %}{% endblock %} si vous utilisez une mise en page.</target>
+            </trans-unit>
+            <trans-unit id="validation.slug.regex" resname="validation.slug.regex">
+                <source>validation.slug.regex</source>
+                <target>Le slug ne peut contenir que des lettres minuscules, chiffres et underscores.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

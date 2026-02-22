@@ -1,0 +1,70 @@
+deptrac:
+    paths:
+        - ./src
+    layers:
+        - name: Entity
+          collectors:
+            - type: directory
+              value: src/Entity/.*
+        - name: Event
+          collectors:
+            - type: directory
+              value: src/Event/.*
+        - name: Enum
+          collectors:
+            - type: directory
+              value: src/Enum/.*
+        - name: Repository
+          collectors:
+            - type: directory
+              value: src/Repository/.*
+        - name: Service
+          collectors:
+            - type: directory
+              value: src/Service/.*
+        - name: Log
+          collectors:
+            - type: directory
+              value: src/Log/.*
+        - name: Renderer
+          collectors:
+            - type: directory
+              value: src/Renderer/.*
+        - name: Sender
+          collectors:
+            - type: directory
+              value: src/Sender/.*
+        - name: Message
+          collectors:
+            - type: directory
+              value: src/Message/.*
+        - name: MessageHandler
+          collectors:
+            - type: directory
+              value: src/MessageHandler/.*
+        - name: EventSubscriber
+          collectors:
+            - type: directory
+              value: src/EventSubscriber/.*
+        - name: Form
+          collectors:
+            - type: directory
+              value: src/Form/.*
+        - name: Controller
+          collectors:
+            - type: directory
+              value: src/Controller/.*
+    ruleset:
+        Entity: [Repository, Enum]
+        Event: []
+        Enum: []
+        Repository: [Entity]
+        Service: [Repository, Entity, Event]
+        Log: [Entity, Repository, Enum]
+        Renderer: [Entity]
+        Sender: [Repository, Renderer, Event, Service]
+        Message: []
+        MessageHandler: [Sender, Message]
+        EventSubscriber: [Event, Log]
+        Form: [Entity]
+        Controller: [Entity, Form]

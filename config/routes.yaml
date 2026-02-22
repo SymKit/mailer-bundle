@@ -1,0 +1,54 @@
+# Import this file in the application with a prefix, e.g.:
+# symkit_mailer_admin:
+#     resource: '@SymkitMailerBundle/config/routes.yaml'
+#     prefix: /admin/email
+
+admin_layout_list:
+    path: /layouts
+    controller: Symkit\MailerBundle\Controller\Admin\LayoutCrudController::list
+    methods: GET
+
+admin_layout_create:
+    path: /layouts/create
+    controller: Symkit\MailerBundle\Controller\Admin\LayoutCrudController::create
+    methods: [GET, POST]
+
+admin_layout_edit:
+    path: /layouts/{id}/edit
+    controller: Symkit\MailerBundle\Controller\Admin\LayoutCrudController::edit
+    methods: [GET, POST]
+
+admin_layout_delete:
+    path: /layouts/{id}/delete
+    controller: Symkit\MailerBundle\Controller\Admin\LayoutCrudController::delete
+    methods: POST
+
+admin_email_list:
+    path: /templates
+    controller: Symkit\MailerBundle\Controller\Admin\EmailCrudController::list
+    methods: GET
+
+admin_email_create:
+    path: /templates/create
+    controller: Symkit\MailerBundle\Controller\Admin\EmailCrudController::create
+    methods: [GET, POST]
+
+admin_email_edit:
+    path: /templates/{id}/edit
+    controller: Symkit\MailerBundle\Controller\Admin\EmailCrudController::edit
+    methods: [GET, POST]
+
+admin_email_delete:
+    path: /templates/{id}/delete
+    controller: Symkit\MailerBundle\Controller\Admin\EmailCrudController::delete
+    methods: POST
+
+admin_emaillog_list:
+    path: /logs
+    controller: Symkit\MailerBundle\Controller\Admin\EmailLogCrudController::list
+    methods: GET
+
+admin_emaillog_show:
+    path: /logs/{id}
+    controller: Symkit\MailerBundle\Controller\Admin\EmailLogCrudController::show
+    methods: GET
