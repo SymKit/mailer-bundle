@@ -91,7 +91,7 @@ final class LayoutCrudController extends AbstractCrudController
     public function edit(Layout $layout, Request $request): Response
     {
         return $this->renderEdit($layout, $request, [
-            'page_title' => 'Edit '.($layout->getName() ?? ''),
+            'page_title' => $this->trans('admin.layout.edit_title', ['%name%' => $layout->getName() ?? '']),
             'page_description' => $this->trans('admin.layout.edit_description'),
         ]);
     }

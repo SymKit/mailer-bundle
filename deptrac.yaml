@@ -2,6 +2,10 @@ deptrac:
     paths:
         - ./src
     layers:
+        - name: Contract
+          collectors:
+            - type: directory
+              value: src/Contract/.*
         - name: Entity
           collectors:
             - type: directory
@@ -55,6 +59,7 @@ deptrac:
             - type: directory
               value: src/Controller/.*
     ruleset:
+        Contract: []
         Entity: [Repository, Enum]
         Event: []
         Enum: []
@@ -62,9 +67,9 @@ deptrac:
         Service: [Repository, Entity, Event]
         Log: [Entity, Repository, Enum]
         Renderer: [Entity]
-        Sender: [Repository, Renderer, Event, Service]
+        Sender: [Contract, Repository, Renderer, Event, Service]
         Message: []
-        MessageHandler: [Sender, Message]
+        MessageHandler: [Contract, Message]
         EventSubscriber: [Event, Log]
         Form: [Entity]
         Controller: [Entity, Form]

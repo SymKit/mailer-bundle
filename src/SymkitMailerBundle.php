@@ -8,6 +8,7 @@ use Symfony\Component\Config\Definition\Configurator\DefinitionConfigurator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
+use Symkit\MailerBundle\Contract\EmailSenderInterface;
 use Symkit\MailerBundle\Controller\Admin\EmailCrudController;
 use Symkit\MailerBundle\Controller\Admin\EmailLogCrudController;
 use Symkit\MailerBundle\Controller\Admin\LayoutCrudController;
@@ -80,13 +81,13 @@ class SymkitMailerBundle extends AbstractBundle
         $services = $container->services()->defaults()->autowire()->autoconfigure()->private();
 
         if ($config['doctrine']) {
-            $services->set(LayoutRepository::class)
+            $services->set($config['entity']['layout_repository_class'])
                 ->tag('doctrine.repository_service')
                 ->arg('$entityClass', '%symkit_mailer.entity.layout_class%');
-            $services->set(EmailRepository::class)
+            $services->set($config['entity']['email_repository_class'])
                 ->tag('doctrine.repository_service')
                 ->arg('$entityClass', '%symkit_mailer.entity.email_class%');
-            $services->set(EmailLogRepository::class)
+            $services->set($config['entity']['email_log_repository_class'])
                 ->tag('doctrine.repository_service')
                 ->arg('$entityClass', '%symkit_mailer.entity.email_log_class%');
         }
@@ -96,6 +97,7 @@ class SymkitMailerBundle extends AbstractBundle
 
         if ($config['doctrine']) {
             $services->set(Sender\EmailSender::class);
+            $services->alias(EmailSenderInterface::class, Sender\EmailSender::class);
         }
 
         if ($config['logging']) {

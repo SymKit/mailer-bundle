@@ -6,7 +6,7 @@ namespace Symkit\MailerBundle\Event;
 
 use Symfony\Contracts\EventDispatcher\Event;
 
-class EmailSentEvent extends Event
+final class EmailSentEvent extends Event
 {
     public function __construct(
         private readonly string $messageId,

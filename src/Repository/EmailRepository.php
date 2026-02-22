@@ -11,7 +11,7 @@ use Symkit\MailerBundle\Entity\Email;
 /**
  * @extends ServiceEntityRepository<Email>
  */
-class EmailRepository extends ServiceEntityRepository
+final class EmailRepository extends ServiceEntityRepository
 {
     /**
      * @param class-string<Email> $entityClass

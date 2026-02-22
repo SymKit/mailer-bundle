@@ -104,7 +104,7 @@ final class EmailCrudController extends AbstractCrudController
     public function edit(Email $email, Request $request): Response
     {
         return $this->renderEdit($email, $request, [
-            'page_title' => 'Edit '.($email->getSubject() ?? ''),
+            'page_title' => $this->trans('admin.email.edit_title', ['%subject%' => $email->getSubject() ?? '']),
             'page_description' => $this->trans('admin.email.edit_description'),
         ]);
     }

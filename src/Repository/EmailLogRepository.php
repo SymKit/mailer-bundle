@@ -11,7 +11,7 @@ use Symkit\MailerBundle\Entity\EmailLog;
 /**
  * @extends ServiceEntityRepository<EmailLog>
  */
-class EmailLogRepository extends ServiceEntityRepository
+final class EmailLogRepository extends ServiceEntityRepository
 {
     /**
      * @param class-string<EmailLog> $entityClass

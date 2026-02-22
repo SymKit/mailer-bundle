@@ -23,6 +23,10 @@
                 <source>admin.layout.edit_description</source>
                 <target>Modifier la mise en page email.</target>
             </trans-unit>
+            <trans-unit id="admin.layout.edit_title" resname="admin.layout.edit_title">
+                <source>admin.layout.edit_title</source>
+                <target>Modifier %name%</target>
+            </trans-unit>
             <trans-unit id="admin.layout.list.name" resname="admin.layout.list.name">
                 <source>admin.layout.list.name</source>
                 <target>Nom</target>
@@ -50,6 +54,10 @@
             <trans-unit id="admin.email.edit_description" resname="admin.email.edit_description">
                 <source>admin.email.edit_description</source>
                 <target>Modifier le modèle d'email.</target>
+            </trans-unit>
+            <trans-unit id="admin.email.edit_title" resname="admin.email.edit_title">
+                <source>admin.email.edit_title</source>
+                <target>Modifier %subject%</target>
             </trans-unit>
             <trans-unit id="admin.email.list.subject" resname="admin.email.list.subject">
                 <source>admin.email.list.subject</source>

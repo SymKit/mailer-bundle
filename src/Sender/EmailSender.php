@@ -9,6 +9,7 @@ use Psr\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email as MimeEmail;
+use Symkit\MailerBundle\Contract\EmailSenderInterface;
 use Symkit\MailerBundle\Event\EmailFailedEvent;
 use Symkit\MailerBundle\Event\EmailSendingEvent;
 use Symkit\MailerBundle\Event\EmailSentEvent;
@@ -17,7 +18,7 @@ use Symkit\MailerBundle\Repository\EmailRepository;
 use Symkit\MailerBundle\Service\MessageIdGenerator;
 use Throwable;
 
-final readonly class EmailSender
+final readonly class EmailSender implements EmailSenderInterface
 {
     public function __construct(
         private EmailRepository $emailRepository,

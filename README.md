@@ -69,7 +69,7 @@ Configurez [notfloran/mjml-bundle](https://github.com/NotFloran/mjml-bundle) (ex
 
 ### Envoi synchrone
 
-Injectez `Symkit\MailerBundle\Sender\EmailSender` :
+Injectez `Symkit\MailerBundle\Contract\EmailSenderInterface` :
 
 ```php
 $this->emailSender->send(

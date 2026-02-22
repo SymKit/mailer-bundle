@@ -10,10 +10,10 @@ use Symkit\MailerBundle\Event\EmailSendingEvent;
 use Symkit\MailerBundle\Event\EmailSentEvent;
 use Symkit\MailerBundle\Log\EmailLogger;
 
-class EmailLogSubscriber implements EventSubscriberInterface
+final readonly class EmailLogSubscriber implements EventSubscriberInterface
 {
     public function __construct(
-        private readonly EmailLogger $emailLogger,
+        private EmailLogger $emailLogger,
     ) {
     }
 

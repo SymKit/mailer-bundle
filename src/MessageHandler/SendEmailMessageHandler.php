@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Symkit\MailerBundle\MessageHandler;
 
+use Symkit\MailerBundle\Contract\EmailSenderInterface;
 use Symkit\MailerBundle\Message\SendEmailMessage;
-use Symkit\MailerBundle\Sender\EmailSender;
 
-class SendEmailMessageHandler
+final readonly class SendEmailMessageHandler
 {
     public function __construct(
-        private readonly EmailSender $emailSender,
+        private EmailSenderInterface $emailSender,
     ) {
     }
 

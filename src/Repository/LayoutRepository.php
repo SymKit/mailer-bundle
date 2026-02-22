@@ -11,7 +11,7 @@ use Symkit\MailerBundle\Entity\Layout;
 /**
  * @extends ServiceEntityRepository<Layout>
  */
-class LayoutRepository extends ServiceEntityRepository
+final class LayoutRepository extends ServiceEntityRepository
 {
     /**
      * @param class-string<Layout> $entityClass
