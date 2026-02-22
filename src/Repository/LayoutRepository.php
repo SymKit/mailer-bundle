@@ -16,7 +16,7 @@ final class LayoutRepository extends ServiceEntityRepository
     /**
      * @param class-string<Layout> $entityClass
      */
-    public function __construct(ManagerRegistry $registry, string $entityClass = Layout::class)
+    public function __construct(ManagerRegistry $registry, string $entityClass)
     {
         parent::__construct($registry, $entityClass);
     }

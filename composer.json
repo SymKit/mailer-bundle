@@ -26,6 +26,9 @@
         "phpunit/phpunit": "^11.0",
         "symkit/bundle-ai-kit": "~0.0.1"
     },
+    "suggest": {
+        "symfony/messenger": "Pour envoi asynchrone (SendEmailMessage)"
+    },
     "config": {
         "allow-plugins": {
             "infection/extension-installer": true,

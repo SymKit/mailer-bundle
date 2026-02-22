@@ -12,14 +12,12 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symkit\FormBundle\Form\Type\FormSectionType;
 use Symkit\FormBundle\Form\Type\SlugType;
-use Symkit\MailerBundle\Entity\Email;
-use Symkit\MailerBundle\Entity\Layout;
 
 final class EmailType extends AbstractType
 {
     public function __construct(
-        private readonly string $emailClass = Email::class,
-        private readonly string $layoutClass = Layout::class,
+        private readonly string $emailClass,
+        private readonly string $layoutClass,
     ) {
     }
 

@@ -18,7 +18,7 @@ final readonly class EmailLogger
     public function __construct(
         private EntityManagerInterface $entityManager,
         private EmailLogRepository $emailLogRepository,
-        private string $emailLogClass = EmailLog::class,
+        private string $emailLogClass,
     ) {
     }
 

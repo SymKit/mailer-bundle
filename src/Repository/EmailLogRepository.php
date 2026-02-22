@@ -16,7 +16,7 @@ final class EmailLogRepository extends ServiceEntityRepository
     /**
      * @param class-string<EmailLog> $entityClass
      */
-    public function __construct(ManagerRegistry $registry, string $entityClass = EmailLog::class)
+    public function __construct(ManagerRegistry $registry, string $entityClass)
     {
         parent::__construct($registry, $entityClass);
     }

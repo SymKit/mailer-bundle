@@ -10,12 +10,11 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symkit\FormBundle\Form\Type\FormSectionType;
-use Symkit\MailerBundle\Entity\Layout;
 
 final class LayoutType extends AbstractType
 {
     public function __construct(
-        private readonly string $dataClass = Layout::class,
+        private readonly string $dataClass,
     ) {
     }
 

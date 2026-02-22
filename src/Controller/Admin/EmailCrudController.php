@@ -16,7 +16,7 @@ final class EmailCrudController extends AbstractCrudController
     private const TRANSLATION_DOMAIN = 'SymkitMailerBundle';
 
     public function __construct(
-        private readonly string $entityClass = Email::class,
+        private readonly string $entityClass,
         private readonly ?TranslatorInterface $translator = null,
     ) {
     }
