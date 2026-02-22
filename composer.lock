@@ -11535,16 +11535,16 @@
         },
         {
             "name": "symkit/bundle-ai-kit",
-            "version": "v0.0.10",
+            "version": "v0.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SymKit/bundles-rules.git",
-                "reference": "2e51f9328db3e779c7e40e7d68e6639dfb161c3d"
+                "reference": "decc44597bc4f0e5f4d5c4390f125d74753306aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SymKit/bundles-rules/zipball/2e51f9328db3e779c7e40e7d68e6639dfb161c3d",
-                "reference": "2e51f9328db3e779c7e40e7d68e6639dfb161c3d",
+                "url": "https://api.github.com/repos/SymKit/bundles-rules/zipball/decc44597bc4f0e5f4d5c4390f125d74753306aa",
+                "reference": "decc44597bc4f0e5f4d5c4390f125d74753306aa",
                 "shasum": ""
             },
             "require": {
@@ -11582,9 +11582,9 @@
             "description": "AI rules and optional skills for building Symfony bundles (best practices, SOLID, AbstractBundle, quality tooling)",
             "support": {
                 "issues": "https://github.com/SymKit/bundles-rules/issues",
-                "source": "https://github.com/SymKit/bundles-rules/tree/v0.0.10"
+                "source": "https://github.com/SymKit/bundles-rules/tree/v0.0.11"
             },
-            "time": "2026-02-22T18:19:12+00:00"
+            "time": "2026-02-22T19:30:20+00:00"
         },
         {
             "name": "thecodingmachine/safe",
